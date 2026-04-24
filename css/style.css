@@ -1,1 +1,33 @@
-/* Hoja de estilos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex; /* Activar flexbox en el Nav */
+    justify-content: space-around; /* Alineación horizontal */
+    align-items: center; /* Alineación vertical */
+    background-color: navy; /* Color de fondo */
+}
+
+nav img {
+    width: 150px; /* Cambiamos el ancho de la imagen */
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 19px;
+    color: whitesmoke;
+    font-weight: 500; /* Grosor del texto */
+    padding: 15px; /* Espacio adentro del enlace */
+    border-radius: 12px; /* Bordes redondeados */
+    transition: 0.6s; /* Tiempo para volver al estado normal */
+}
+
+nav a:hover{
+    background-color: darkolivegreen; /*Color de fondo al pasar el mouse*/
+    scale: 1.2; /* Aumentar el tamaño del enlace al pasar el mouse */
+    transition: 0.6s; /* Tiempo de duración de la animación */
+}
+
+
